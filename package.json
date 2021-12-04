@@ -1,0 +1,19 @@
+{
+  "name": "2021aoc1",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhugray/2021AOC1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhugray/2021AOC1/issues"
+  },
+  "homepage": "https://github.com/jhugray/2021AOC1#readme"
+}
