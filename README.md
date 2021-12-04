@@ -1,5 +1,12 @@
 # advent-of-code
+```
+     _       _                 _            __     ___          _      
+    /_\   __| |_   _____ _ __ | |_    ___  / _|   / __\___   __| | ___ 
+   //_\\ / _` \ \ / / _ \ '_ \| __|  / _ \| |_   / /  / _ \ / _` |/ _ \
+  /  _  \ (_| |\ V /  __/ | | | |_  | (_) |  _| / /__| (_) | (_| |  __/
+  \_/ \_/\__,_| \_/ \___|_| |_|\__|  \___/|_|   \____/\___/ \__,_|\___|
+                                                                       
+```
 
-Solving the fun problems from the Advent of Code
+Solving fun problems from the Advent of Code   
 https://adventofcode.com
-
