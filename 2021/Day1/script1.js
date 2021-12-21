@@ -14,8 +14,6 @@ function depthIncCount() {
   console.log('The solution for part 1 is: ' + depthIncreaseCount)
 }
 
-
-
 function windowDepthIncCount() {
   let windowDepthIncreaseCount = 0
   // const depthsData = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
