@@ -31,11 +31,35 @@ function rps() {
       }[char]
     })
   }).map(score)
-  console.log(scores);
   const totalScore = scores.reduce(function(total,num){
     return total + num; 
   }, 0);
-  console.log('Your total score is ' + totalScore);
+  console.log('Your total score for part 1 is ' + totalScore);
+}
+
+function rpsPart2() {
+  const rounds = fs.readFileSync('22D2input.txt', 'utf8').split('\n');
+  // example input for testing:
+  // const rounds = fs.readFileSync('22D2exampleinput.txt', 'utf8').split('\n');
+
+  const scores = rounds.map(function(round){
+    switch(round) {
+      case 'A X' : return 'R S'
+      case 'A Y' : return 'R R'
+      case 'A Z' : return 'R P'
+      case 'B X' : return 'P R'
+      case 'B Y' : return 'P P'
+      case 'B Z' : return 'P S'
+      case 'C X' : return 'S P'
+      case 'C Y' : return 'S S'
+      case 'C Z' : return 'S R'
+    }
+    }).map(score)
+  const totalScore = scores.reduce(function(total,num){
+    return total + num; 
+  }, 0);
+  console.log('Your total score for part 2 is ' + totalScore);
 }
 
 rps();
+rpsPart2();
