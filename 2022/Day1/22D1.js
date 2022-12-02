@@ -2,6 +2,7 @@ fs = require('fs');
 
 function mostCalories() {
   const elfCalories = fs.readFileSync('22D1input.txt', 'utf8').split('\n\n');
+  // example input for testing:
   // const elfCalories = fs.readFileSync('22D1exampleinput.txt', 'utf8').split('\n\n');
 
   const calsPerElf = elfCalories.map(function(elf) {
@@ -24,8 +25,5 @@ function mostCalories() {
   const top3Elves = calsPerElf.pop()+calsPerElf.pop()+calsPerElf.pop();
   console.log('The top 3 elves are carrying ' + top3Elves + ' calories');
 }
-
-
-
 
 mostCalories(); 
