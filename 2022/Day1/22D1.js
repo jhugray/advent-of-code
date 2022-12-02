@@ -15,9 +15,17 @@ function mostCalories() {
     }, 0);
   })
   // console.log(calsPerElf);
-
+  
   const elfMostCalories = Math.max(...calsPerElf);
   console.log('The elf carrying the most calories has ' + elfMostCalories + ' calories.')
+
+  //part 2
+  calsPerElf.sort();
+  const top3Elves = calsPerElf.pop()+calsPerElf.pop()+calsPerElf.pop();
+  console.log('The top 3 elves are carrying ' + top3Elves + ' calories');
 }
+
+
+
 
 mostCalories(); 
